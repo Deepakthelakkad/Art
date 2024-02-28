@@ -1,47 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>GeeksforGeeks Registration</title>
-	<link rel="stylesheet"
-		href="style.css">
+<link rel="stylesheet" href="style.css">
+<title> CSS Login Screen Tutorial </title>
 </head>
-
 <body>
-	<div class="main">
-		<h1>GeeksforGeeks</h1>
-		<h3>Enter your login credentials</h3>
-		<form action="">
-			<label for="first">
-				Username:
-			</label>
-			<input type="text"
-				id="first"
-				name="first"
-				placeholder="Enter your Username" required>
-
-			<label for="password">
-				Password:
-			</label>
-			<input type="password"
-				id="password"
-				name="password"
-				placeholder="Enter your Password" required>
-
-			<div class="wrap">
-				<button type="submit"
-						onclick="solve()">
-					Submit
-				</button>
-			</div>
-		</form>
-		<p>Not registered? 
-			<a href="#"
-			style="text-decoration: none;">
-				Create an account
-			</a>
-		</p>
-	</div>
+  <body>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form">
+          <input type="text" placeholder="username"/>
+          <input type="password" placeholder="password"/>
+          <button>login</button>
+          <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+      </div>
+    </div>
 </body>
-
+</body>
 </html>
